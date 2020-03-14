@@ -1,5 +1,24 @@
 language: php
+
+sudo: false
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+before_script:
+  - composer update
+  - composer install
+
+script:
+  - vendor/bin/phpunit --coverage-clover=coverage.clover
+
 php:
   - 7.1
-  - 7.2
-  - 7.3
+  - hhvm
+
+matrix:
+  allow_failures:
+  - php: 7.4snapshot
+  - php: hhvm
