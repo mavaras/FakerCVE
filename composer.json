@@ -1,6 +1,7 @@
 {
     "name": "mavaras/faker-cve",
     "description": "Common vulnerabilities and exposures faker data gen",
+    "keywords": ["faker", "cve", "provider"],
     "authors": [
         {
             "name": "Mario Varas",
