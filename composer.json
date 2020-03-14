@@ -1,0 +1,19 @@
+{
+    "name": "mavaras/faker-cve",
+    "description": "Common vulnerabilities and exposures faker data gen",
+    "authors": [
+        {
+            "name": "Mario Varas",
+            "email": "elasgard@hotmail.es"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\Provider\\": "src/"
+        }
+    }
+}
