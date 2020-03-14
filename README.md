@@ -3,12 +3,14 @@
 Common Vulnerability and Exposures provider for [Faker](https://github.com/fzaninotto/Faker).
  
 (WIP) adding more data to model & adding new fields to retrieve
+
 Any contributions are welcomed :)
 
 ## Installation
 ```sh
 composer require mavaras/faker-cve
 ```
+
 
 ## Basic Usage
 ```php
