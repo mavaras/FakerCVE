@@ -1,5 +1,5 @@
 <?php
-namespace fakerCVE;
+namespace Faker\Provider;
 
 
 class CVEData {
