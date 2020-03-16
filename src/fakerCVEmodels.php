@@ -43,7 +43,7 @@ class CVEData {
         'Directory traversal', 'Sql Injection', 'Memory Corruption', 'Gain Privileges', 'Gain Information'
     );
 
-    public static function getCveId() : array { return static::$cveId_models; }
+    public static function getCVEId() : array { return static::$cveId_models; }
     public static function getCVEComplexity() : array { return static::$cveComplexity_models; }
     public static function getCVEAuthentication() : array { return static::$cveAuthentication_models; }
     public static function getCVEConf() : array { return static::$cveConf_models; }
