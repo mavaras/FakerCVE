@@ -48,7 +48,7 @@ class FakerCVETest extends TestCase {
 
     public function testCVEDescription() {
         $this->assertContains(
-            $this->faker->testCVEDescription,
+            $this->faker->CVEDescription,
             CVEData::getCVEDescription()
         );
     }
@@ -63,7 +63,7 @@ class FakerCVETest extends TestCase {
     public function testCVEVulnType() {
         $this->assertContains(
             $this->faker->CVEVulnType,
-            CVEData::getCVEType()
+            CVEData::getCVEVulnType()
         );
     }
 }
