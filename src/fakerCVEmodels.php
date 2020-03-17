@@ -3,9 +3,6 @@ namespace Faker\Provider;
 
 
 class CVEData {
-    public static function getNavModels() : array {
-        return static::$nav_models;
-    }
 
     protected static $cveId_models = array(
         'CVE-2019-1010318', 'CVE-2019-1010312', 'CVE-2019-1010311', 'CVE-2019-1010048',
