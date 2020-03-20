@@ -12,7 +12,7 @@ class CWEData {
     protected static $cweType_models = array();
 
     function __construct() {
-        $cwe_file = file_get_contents('res/cwe.json');
+        $cwe_file = file_get_contents('res/cwe_ES.json');
         $cwe_json = json_decode($cwe_file, true);
 
         foreach ($cwe_json as &$cwe) {
